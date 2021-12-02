@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#fade").click(function(){
+        $("h1").fadeIn();
+    });
+    $("#fadeo").click(function(){
+        $("h1").fadeOut();
+    });
+});
+    </script>
+    <title>Effect</title>
+</head>
+<body>
+
+<p>ตั้งนะโมมันโก้จริงๆ</p>
+
+<button id="hide">หายไปซะ</button>
+<button id="show">โผล่มานะ</button><br>
+
+<h1>ไม่กินเผ็ดจร้ะไม่กินเผ็ด</h1>
+
+<button id="fade">มาทำไมให้อายบ้านนา</button>
+<button id="fadeo">ไปๆ แอ๊ดแอ๊ววว</button>
+
+</body>
+</html>
